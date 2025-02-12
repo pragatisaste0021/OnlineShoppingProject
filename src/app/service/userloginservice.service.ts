@@ -23,9 +23,6 @@ export class UserloginserviceService {
     return this.http.get<UserDetail>(uidUrl);
   }
 
-
-  
-  
   updateUser(userdetail: UserDetail): Observable<UserDetail> {
     const httpOptions = {
       headers: new HttpHeaders({

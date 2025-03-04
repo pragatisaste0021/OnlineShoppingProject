@@ -9,6 +9,5 @@ import com.example.demo.entity.Cart;
 @RepositoryRestResource(path="cart")
 @CrossOrigin("http://localhost:4200")
 public interface CartDao extends JpaRepository<Cart, Long> {
-	
 
 }

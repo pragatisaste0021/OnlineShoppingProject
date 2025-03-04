@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.example.demo.entity.Admin;
 
-
-
 @RepositoryRestResource(path="admin1")
 @CrossOrigin("http://localhost:4200")
 public interface AdminDao extends JpaRepository<Admin,Integer>{

@@ -20,7 +20,6 @@ public class AdminController {
 	@Autowired
 	AdminService service;
 	
-	
 	@GetMapping("/list")
 	public List<Admin> findAllAdmin(){
 		List<Admin> list = service.findAllAdmin();

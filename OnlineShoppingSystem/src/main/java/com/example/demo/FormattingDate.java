@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class FormattingDate {
-	
+
 	public static Date StringToDate(String dob) throws ParseException {
 	      //Instantiating the SimpleDateFormat class
 	      SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");

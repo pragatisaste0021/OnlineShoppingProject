@@ -11,7 +11,7 @@ describe('UserlogoutComponent', () => {
       declarations: [ UserlogoutComponent ]
     })
     .compileComponents();
-
+    
     fixture = TestBed.createComponent(UserlogoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

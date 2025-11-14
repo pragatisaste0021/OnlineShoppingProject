@@ -9,7 +9,7 @@ import { OrderserviceService } from 'src/app/service/orderservice.service';
   styleUrls: ['./orderform.component.css']
 })
 export class OrderformComponent implements OnInit{
-
+  
   order : Orderdetail = new Orderdetail(0, "", new Date(), new Date(), "", 0, 0);
   isEditable: boolean;
   constructor(private orderservice : OrderserviceService,private router:Router,private activateRoute:ActivatedRoute) { }

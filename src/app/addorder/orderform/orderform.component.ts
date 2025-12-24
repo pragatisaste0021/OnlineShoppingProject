@@ -13,7 +13,7 @@ export class OrderformComponent implements OnInit{
   order : Orderdetail = new Orderdetail(0, "", new Date(), new Date(), "", 0, 0);
   isEditable: boolean;
   constructor(private orderservice : OrderserviceService,private router:Router,private activateRoute:ActivatedRoute) { }
-
+ 
   ngOnInit(): void {
     this.activateRoute.paramMap.subscribe(()=>this.order);
     this.activateRoute.paramMap.subscribe(()=>this.getOrderById());
